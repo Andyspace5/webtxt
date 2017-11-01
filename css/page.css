@@ -1,0 +1,740 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+body{
+	background: #f1f1f1;
+}
+.body_index{
+	background:linear-gradient(-180deg, #D8FFF5 10%, #0074A9 100%);
+}
+header{
+	width: 100%;
+	height: 2.8rem;
+	background:#2DB995;
+	color: white;
+	text-align: center;
+	line-height: 2.8rem;
+	font-size: 1rem;
+	letter-spacing: -0.41px;
+	position: fixed;
+}
+section{
+	overflow: hidden;
+	padding-top: 3.625rem;
+}
+/*setion标题文字样式*/
+.section_index h2{
+	font-size: 2.25rem;
+	color: #2DB995;
+	text-align: center;
+	padding-top: 1.5rem;
+}
+.section_index p{
+	text-align: center;
+	font-size: 1rem;
+	color: #5B5B5B;
+}
+/*end*/
+
+/*监控按钮样式*/
+.section_index .index_list{
+	height: 20.6rem;
+    margin: 3rem 3% 0 3%;
+}
+.section_index .index_list li{
+	width: 47%;
+	height: 6.7rem;
+	margin-bottom: 1.5rem;
+	position: relative;
+	background-size: 100% 100%;
+}
+.section_index .index_list .list_impetus{
+	float:left;
+}
+.section_index .index_list .list_environment{
+	float:right;
+}
+.section_index .index_list .list_it{
+	float: left;
+}
+.section_index .index_list .list_analysis{
+	float: right;
+}
+/*end*/
+
+/*index各监控按钮不同状态的背景样式*/
+.index_list li{
+	background: url(../img/type_none.png) no-repeat center;
+}
+.index_list .li_bg_none{
+	background: url(../img/type_none.png) no-repeat center;
+	
+}
+.index_list .li_bg_yellow{
+	background: url(../img/type_yellow.png) no-repeat center;
+	
+}
+.index_list .li_bg_red{
+	background: url(../img/type_red.png) no-repeat center;
+	
+}
+.index_list .li_bg_blue{
+	background: url(../img/type_blue.png) no-repeat center;
+	
+}
+/*end*/
+
+/*监控图标文字样式*/
+.index_list li i img{
+	width: 100%;
+}
+.index_list li i{
+	position: absolute;
+	top: 1.3rem;
+	left: 0.625rem;
+	width: 2.5rem;
+	height: 2.3rem;
+}
+
+.index_list li h4{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	position: absolute;
+	left: 4.125rem;
+	top: 1.2rem;
+	color: white;
+	font-size: 1rem;
+	text-align: left;
+}
+
+.index_list li p{
+	float: left;
+	line-height: 2.2rem;
+	height: 2.2rem;
+	width: 100%;
+	font-size: 1rem;
+	margin-top: 4.5rem;
+	background-image: none;
+	color: white;
+	color: white;
+	text-align: left;
+	text-indent: 0.68rem;
+}
+/*end*/
+
+/*index各监控按钮不同状态的P标签背景样式*/
+.index_list li .p_red{
+
+	background: linear-gradient(120deg,#c85e55 41%,#984936 0);
+}
+.index_list li .p_blue{
+
+	background: linear-gradient(120deg,#4f9edf 41%,#1283be 0);
+}
+.index_list li .p_yellow{
+
+	background: linear-gradient(120deg,#c0ac5c 41%,#aeb75b 0);
+}
+.index_list li .p_none{
+	background: none;
+	
+}
+/*end*/
+
+/*==========================二级页面样式==================================*/
+.section_nav_t .nav_t_list{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+}
+.section_nav_t .nav_t_list li{
+	width: 47%;
+	height: 3.3rem;
+	margin: 1% 1%;
+	background: #FFFFFF;
+	border: 1px solid #CDCDCD;
+	font-size: 17px;
+	text-align: center;
+	line-height: 3.3rem;
+}
+.nav_t_list li a{
+	display: inline-block;
+	color: #2DB995;
+	width: 100%;
+	height: 3.3rem;
+}
+/*end*/
+
+
+/*==========================三级页面==================================*/
+/*==========================impetus监控下的ups监控==================================*/
+.ups_header{
+	height: 5.5rem;
+}
+.ups_header h1{
+	width: 5.68rem;
+	height: 1.5rem;
+	margin: 0 auto;
+	font-size: 1rem;
+	color: #FFFFFF;
+	letter-spacing: -0.41px;
+	background: url(../img/arrow.png) no-repeat right center;
+	background-size: 0.8rem 0.4rem;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.ups_header .change{
+	margin: 0 auto;
+	font-size: 1rem;
+	background: #2DB995;
+	color: #FFFFFF;
+	position: absolute;
+	left:42%;
+	top: center;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	display: none;
+}
+.ups_header .change>div{
+	border-top: 1px solid;
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0 0.5rem;
+}
+.ups_header h4{
+	font-size: 0.85rem;
+	color: #FFFFFF;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.ups_header .nav{
+	height: 1.5rem;
+	display: flex;
+	margin: 0.75rem 2%;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+}
+.ups_header .nav li{
+	width: 50%;
+	height: 100%;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	color: white;
+	letter-spacing: -0.08px;
+	border-right: 1px solid white;
+}
+.ups_header .nav li:last-child{
+	border: none;
+}
+.ups_header .nav .li_ck{
+	background: white;
+	color: #2DB995;
+}
+
+.ups_section{
+	padding-top: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: inherit;
+}
+
+.ups_section_date li{
+	width: 46%;
+	border: 1px solid #cdcdcd;
+	margin: 0.5rem 1.5%;
+	overflow: hidden;
+	background: white;
+}
+.ups_section_date li h4{
+	text-align: center;
+	line-height: 3rem;
+	height: 3rem;
+	font-size: 1rem;
+	color: #2DB995;
+	background: #E9E9E9;
+	
+}
+.ups_section_date li .date{
+	padding: 3% 12.5%;
+	overflow: hidden;
+}
+.ups_section_date li .date p{
+	margin:0.4rem 0;
+	font-size: 0.875rem;
+	color: #606060
+}
+
+.ups_section_date li .date p:nth-child(odd){
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+.ups_section_date li .date p:nth-child(even){
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+.ups_section_date li .date .isnone{
+	width: 30%;
+}
+.ups_section_date .exp .date p{
+	float: left!important;;
+	width: 100%;
+	text-align: left!important;
+}
+
+.ups_section_state li{
+	width: 46%;
+	height: 4.6rem;
+	border: 1px solid #cdcdcd;
+	margin: 0.5rem 1.5%;
+	background: white;
+}
+.ups_section_state li p{
+	text-align: center;
+	font-size: 1rem;
+	color: #2DB995;
+	padding-top: 1rem;
+}
+.ups_section_state .font_exp p{
+	font-size: 0.8rem;
+}
+.ups_section_state li .state_logo{
+	height: 1.625rem;
+	width: 100%;
+	
+}
+
+.ups_section_state li .red_state{
+	background: url(../img/red_state.png) no-repeat center;
+	background-size: 1.625rem 1.625rem;
+}
+.ups_section_state li .blue_state{
+	background: url(../img/blue_state.png) no-repeat center;
+	background-size: 1.625rem 1.625rem;
+}
+
+/*==========================impetus监控下的ups电池监控==================================*/
+.battery_header{
+	height: 2.8rem;
+}
+.battery_section{
+	padding-top: 2.8rem;
+}
+.battery_section .battery_title{
+	margin: 1.75rem 0;
+}
+.battery_section .battery_title h2{
+	font-size: 1rem;
+	color: #2DB995;
+	text-align: center;
+}
+.battery_section .battery_date{
+	display: flex;
+	flex-direction: inherit;
+	flex-wrap: wrap;
+	margin: 0 3%;
+	overflow: hidden;
+}
+.battery_section .battery_date li{
+	width: 45%;
+	border: 1px solid #cdcdcd;
+	margin: 0.5rem 2%;
+	padding: 1rem;
+	box-sizing: border-box;
+	background: white;
+}
+.battery_date li h4,.battery_date li p{
+	text-align: center;
+	font-size: 1rem;
+	color: #2DB995;
+}
+
+
+/*==========================impetus监控下的市配电监控==================================*/
+
+.election_section li .date{
+	padding: 3% 11%;
+	overflow: hidden;
+}
+
+/*解决换行居右,当出现字数过长时产生自动换行，实现左对齐*/
+.election_section .exp2 .date p{
+	float: left!important;
+}
+
+
+/*==========================impetus监控下的精密配电监控==================================*/
+.preElection_header h1{
+	width: 7.68rem;
+}
+
+.preE_section li .date{
+	overflow: hidden;
+}
+.preE_section li .date .preE_exp{
+	float: left!important;
+	margin-left: 0!important;
+	text-align: left!important;
+}
+
+
+/*==========================impetus监控下的发动机组监控==================================*/
+.engine_section li{
+	flex-grow: 1;
+}
+.engine_section .important{
+	width: 100%;
+    flex-grow: 5;
+    text-align: center;
+    margin: 0 1.5%;
+	border: 1px solid #cdcdcd;
+	background: white;
+}
+.engine_section .important h2{
+	font-size: 1rem;
+	color: #2DB995;	
+	background: #E9E9E9;
+	height: 3rem;
+	line-height: 3rem;
+
+}
+.engine_section .important p{
+	margin: 2% 0;
+	text-align: left;	
+	width: 50%;
+	font-size: 0.875rem;
+	color: #606060;
+	text-indent: 3%;
+	
+}
+.engine_section .important p:nth-child(odd){
+	float: left;
+	
+}
+.engine_section .important p:nth-child(even){
+	float: right;
+	text-indent: 10%;
+}
+
+/*==========================impetus监控下的pdu监控==================================*/
+.pdu_section .important p{
+	
+}
+.pdu_section .important p:last-child{
+
+	width: 100%;
+}
+
+
+/*==========================environment监控下的cond空调监控==================================*/
+.cond_section{
+	padding-top: 6rem;
+	
+}
+.cond_section .date{
+	margin-top: 1rem;
+	background: white;
+	padding: 0 5%;
+}
+
+.cond_section .date li {
+	color: #202020;
+	font-size: 1rem;
+	padding: 1rem 0;
+	width: auto;
+	border: none;
+	margin: 0;
+	
+}
+.cond_section .date li span{
+	float: right;
+}
+
+
+
+/*==========================environment监控下的fan新风机监控==================================*/
+.fan_section li{
+	width: 46%;
+	height: 4.6rem;
+	border: 1px solid #cdcdcd;
+	margin: 0.5rem 1.5%;
+	background: white;
+}
+.fan_section li p{
+	text-align: center;
+	font-size: 1.25rem;
+	color: black;
+	padding-top: 1rem;
+	font-weight: normal;
+}
+
+.fan_section li .txt{
+	font-size: 0.875rem;
+	text-align: center;
+	color: #6e6e6e;
+	
+}
+.fan_state>li{
+	width: 100%;
+	height: 5.6rem;
+	flex-grow: 1;
+}
+.fan_state li p{
+	padding-top: 1.5rem;
+	
+}
+
+
+/*==========================environment监控下的温湿度监控==================================*/
+.temp_section{
+	padding-top: 3.5rem;
+}
+.temp_section .content{
+	
+	width: 100%;
+	height: 12rem;
+	background: white;
+	margin:1rem 1.5%;
+	overflow: hidden;
+	
+}
+.temp_section .content h4{
+	padding-left: 2%;
+	padding-top: 0.2rem;
+	font-size: 12px;
+	color: #2DB995;
+	letter-spacing: -0.33px;
+}
+
+
+/*==========================it监控下的route路由监控==================================*/
+.route_section{
+	padding-top: 3.5rem;
+}
+.route_section .content{
+	border: 1px solid #cdcdcd;
+	margin: 0 3%;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.route_section .content .route_note{
+	height: 14.25rem;
+	background: white;
+}
+.route_section .content .route_note h4{
+	font-size: 17px;
+	color: #2DB995;
+	padding-top: 1rem;
+	text-align: center;
+}
+.route_section .content .route_note .img{
+	margin: 0 auto;
+}
+.route_note .img img{
+	width: 100%;
+	height: 100%;
+}
+.route_section .content .route_info>h4{
+	height: 3rem;
+	background: #e9e9e9;
+	color:#2DB995 ;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 3rem;
+}
+.route_section .content .route_info{
+	background: white;
+}
+.route_info .info{
+	padding: 3%;
+}
+.route_info .info li {
+	width: 100%;
+	display: flex;
+	flex-direction: inherit;
+	margin-bottom: 0.5rem;
+	font-size: 0.875rem;
+	color:#606060;
+}
+.route_info .info li i{
+	width: 50%;
+}
+.route_info .info li span{
+	width: 50%;
+	
+}
+
+
+/*==========================it监控下的service服务器监控==================================*/
+.server_header h1{
+	width: 8.5rem;
+}
+
+.disk_info .info{
+	padding-right: 0;
+}
+.disk_info .info li{
+	width: 100%;
+}
+.disk_info>.info span{
+	height: 0.5rem;
+	background: #a9a9a9;
+	margin-top: 0.4rem;
+}
+.disk_info>.info span b{
+	display: block;
+	width: 80%;
+	height: 0.5rem;
+	background-image: linear-gradient(-90deg, #B4EC51 0%, #429321 100%);
+	
+}
+
+/*==========================it监控下的交换机监控==================================*/
+.switch_header h1{
+	width: 9.68rem;
+}
+
+/*==========================监控分析下的历史数据分析==================================*/
+.history_section {
+	padding-top: 2.6rem;
+}
+.history_section .any_change{
+	height: 2.8rem;
+	background: white;
+	padding:0 20%;
+	display: block;
+	line-height: 2.8rem;
+	
+}
+.history_section .any_change a{
+	font-size: 1rem;
+	color: #2DB995;
+	padding: 0 1rem;
+}
+
+.history_section .any_change .ups{
+	float: left;
+}
+.history_section .any_change .u{
+	float: right;
+}
+.history_section .history_date{
+	height: 12rem;
+	background: white;
+	margin:1rem 3%;
+	overflow: hidden;
+}
+.history_section .history_date h4{
+    padding-left: 2%;
+    padding-top: 0.2rem;
+    font-size: 12px;
+    color: #2DB995;
+    letter-spacing: -0.33px;
+}
+.history_section .any_change a{
+	background: url(../img/arrow2.png) no-repeat right center;
+	background-size: 0.8rem 0.4rem;
+}
+.any_change a .change div{
+	padding: 0 1rem;
+	border-bottom: 1px solid #2DB995;
+	
+} 
+.history_section .any_change .ups .change{
+	display: none;
+	position: absolute;
+	left: 19%;
+	background: white;
+	border: 1px solid #2DB995;
+	
+	
+}
+.history_section .any_change .u .change{
+	display: none;
+	position: absolute;
+	left: 50%;
+	background: white;
+	border: 1px solid #2DB995;
+	
+}
+
+/*==========================监控分析下的告警统计报表==================================*/
+
+.date_section{
+	padding-top: 2.8rem;
+}
+.date_section table{
+	background: white;
+}
+.date_section table thead tr{
+	height: 3rem;
+	background: #f1f1f1;
+}
+.date_section table thead th{
+	font-size: 0.75rem;
+	color: #181818;
+	letter-spacing: -0.33px;
+	font-weight: normal;
+	border: none;
+	
+}
+.date_section table tbody tr{
+	height: 4.3rem;
+	
+}
+.date_section table tbody td{
+	text-align: center;
+	font-size: 0.75rem;
+	color: #181818;
+	letter-spacing: -0.33px;
+	font-weight: normal;
+	
+}
+.tb{
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+.tb tbody tr{
+	border-bottom: 1px solid #cdcdcd;
+}
+.tb tbody tr td{
+	border: none;
+	height:4.3rem;
+	
+}
+
+/*//定义前两个td的左对齐,以及内容上对齐.*/
+.tb tbody tr .td_exp{
+	text-align: left;
+	padding-left: 0.5rem;	
+}
+.tb thead tr .th_left{
+	text-align: left;
+	text-indent: 0.5rem;
+}
+.tb tbody tr .td_left{
+	text-align: left;
+	padding-left: 0.5rem;
+	line-height: 1rem;
+}
+.tb tbody tr .td_left p{
+	margin-top: -1.4rem;
+}
+.tb tbody tr .td_left .p_exp{
+	margin-top: 0.5rem;
+}
+

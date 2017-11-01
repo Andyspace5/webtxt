@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/page.css" />
+		<title>impetus_ups</title>
+	</head>
+	<body>
+		<header class="ups_header">
+			<h1>
+				<span>UPS柜1</span>
+				<div class="change">
+					<div>UPS柜1</div>
+					<div>UPS柜2</div>
+					<div>UPS柜3</div>
+					<div>UPS柜4</div>
+					<div>UPS柜5</div>
+				</div>	
+			</h1>
+			
+			
+			<h4>UPS监控</h4>
+			<div class="nav">
+				<li class="li_ck ups_date">UPS监控</li><li class="ups_state ups_state1">UPS报警状态</li>
+			</div>
+		</header>
+		<section class="ups_section_date ups_section">
+			<li>
+				<h4>UPS输入监测</h4>
+				<div class="date">
+					<p><i>ua:</i><span>220</span></p>
+					<p><i>la:</i><span>220</span></p>
+					<p><i>ub:</i><span>220</span></p>
+					<p><i>lb:</i><span>220</span></p>
+					<p><i>uc:</i><span>220</span></p>
+					<p><i>lc:</i><span>220</span></p>
+					<p class="long"><i>频率:</i><span>50HZ</span></p>
+				</div>
+				
+			</li>
+			<li>
+				<h4>UPS旁路输入监测</h4>
+				<div class="date">
+					<p><i>ua:</i><span>220</span></p>
+					<p><i>la:</i><span>220</span></p>
+					<p><i>ub:</i><span>220</span></p>
+					<p class="isnone">-</p>
+					<p><i>uc:</i><span>220</span></p>
+					<p><i>lc:</i><span>220</span></p>
+					<p class="long"><i>频率:</i><span>0.01HZ</span></p>
+				</div>
+			</li>
+			<li>
+				<h4>UPS输出监测</h4>
+				<div class="date">
+					<p><i>ua:</i><span>220</span></p>
+					<p><i>la:</i><span>220</span></p>
+					<p><i>ub:</i><span>220</span></p>
+					<p><i>lb:</i><span>220</span></p>
+					<p><i>uc:</i><span>220</span></p>
+					<p><i>lc:</i><span>220</span></p>
+					<p class="long"><i>频率:</i><span>50HZ</span></p>
+				</div>
+			</li>
+			<li class="exp">
+				<h4>电池监测</h4>
+				<div class="date">
+					<p><i>电源电流:</i><span>&nbsp;&nbsp;1A</span></p>
+					<p><i>电池电压:</i><span>&nbsp;&nbsp;1V</span></p>
+					<p><i>备电时间:</i><span>&nbsp;&nbsp;20h</span></p>
+					<p><i>电池温度:</i><span>&nbsp;&nbsp;30℃</span></p>
+				</div>
+			</li>
+		</section>
+		<section class="ups_section_state ups_section_state1 ups_section">
+			<li>
+				<p>输入电压越界报警</p>
+				<div class="state_logo blue_state"></div>
+			</li>
+			<li>
+				<p>输入频率越界报警</p>
+				<div class="state_logo red_state"></div>
+			</li>
+			<li>
+				<p>输入电压越界报警</p>
+				<div class="state_logo blue_state"></div>
+			</li>
+			<li>
+				<p>整流器电压越界报警</p>
+				<div class="state_logo red_state"></div>
+			</li>
+			<li>
+				<p>过载报警</p>
+				<div class="state_logo blue_state"></div>
+			</li>
+			<li>
+				<p>电池电压越界报警</p>
+				<div class="state_logo red_state"></div>
+			</li>
+			<li class="font_exp">
+				<p>电池后备时间超低报警</p>
+				<div class="state_logo blue_state"></div>
+			</li>
+			<li>
+				<p>电池温度超高报警</p>
+				<div class="state_logo red_state"></div>
+			</li>
+			<li>
+				<p>逆变器关闭报警</p>
+				<div class="state_logo blue_state"></div>
+			</li>
+			<li>
+				<p>自动旁路开报警</p>
+				<div class="state_logo red_state"></div>
+			</li>
+			
+		</section>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="js/page.js" ></script>
+</html>
